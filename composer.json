@@ -5,7 +5,9 @@
 	"yii2",
 	"extension",
 	"advancedhtmldom",
-	"advanced_html_dom"
+	"advanced_html_dom",
+	"advanced-html-dom",
+	"advanced html dom",
   ],
   "homepage": "https://github.com/aayaresko/yii2-advanced-html-dom",
   "type": "yii2-extension",
