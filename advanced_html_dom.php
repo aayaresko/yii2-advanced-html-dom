@@ -9,6 +9,7 @@
  * @author P Guardiario <pguardiario@gmail.com>
  * @version 0.0.11
  */
+ 
 namespace aayaresko\advancedhtmldom\;
 
 if(!class_exists('PGBrowser')){
