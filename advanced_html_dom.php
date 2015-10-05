@@ -9,6 +9,7 @@
  * @author P Guardiario <pguardiario@gmail.com>
  * @version 0.0.11
  */
+namespace aayaresko\advancedhtmldom\;
 
 if(!class_exists('PGBrowser')){
 
@@ -76,7 +77,7 @@ class AdvancedHtmlBase{
       case 'index': return $this->search('./preceding-sibling::*')->length + 1;
 
       /*
-      DOMNode::insertBefore — Adds a new child 
+      DOMNode::insertBefore â€” Adds a new child 
       */
 
       // simple-html-dom junk methods
@@ -728,4 +729,3 @@ function file_get_html($url){ return str_get_html(file_get_contents($url)); }
 function str_get_xml($html){ return new AdvancedHtmlDom($html, true); }
 function file_get_xml($url){ return str_get_xml(file_get_contents($url)); }
 }
-?>
