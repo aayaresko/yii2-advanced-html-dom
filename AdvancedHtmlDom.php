@@ -15,6 +15,7 @@ namespace aayaresko\advancedhtmldom;
 use ArrayAccess;
 use Countable;
 use DOMDocument;
+use DOMXPath;
 use Iterator;
 
 if(!class_exists('PGBrowser')){
