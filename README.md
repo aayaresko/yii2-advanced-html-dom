@@ -15,3 +15,17 @@ Features
 * Jquery-style functions replace, wrap, unwrap, before after
 * Nodeset math: $doc->find('a')->minus($doc->find('.skip_me'))
 * Lots more features that haven't been documented yet.
+
+## Installation
+
+The preferred way to install extension is via [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/aayaresko/yii2-advanced-html-dom/blob/master/composer.json) for this extension's requirements and dependencies.
+
+To install, either run
+```
+$ php composer.phar require aayaresko/yii2-advanced-html-dom "*"
+```
+or add
+```
+"aayaresko/yii2-advanced-html-dom": "*"
+```
+to the ```require``` section of your `composer.json`.
