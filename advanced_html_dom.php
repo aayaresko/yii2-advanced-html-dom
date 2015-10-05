@@ -10,7 +10,7 @@
  * @version 0.0.11
  */
  
-namespace aayaresko\advancedhtmldom\;
+namespace aayaresko\advancedhtmldom;
 
 if(!class_exists('PGBrowser')){
 
