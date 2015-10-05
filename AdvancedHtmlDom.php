@@ -12,6 +12,10 @@
  
 namespace aayaresko\advancedhtmldom;
 
+use ArrayAccess;
+use Countable;
+use Iterator;
+
 if(!class_exists('PGBrowser')){
 
 $attributes = array('href', 'src', 'id', 'class', 'name', 'text', 'height', 'width', 'content', 'value', 'title', 'alt');
