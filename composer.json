@@ -9,12 +9,15 @@
 	"advanced-html-dom",
 	"advanced html dom"
   ],
-  "homepage": "https://github.com/aayaresko/yii2-advanced-html-dom",
   "type": "yii2-extension",
   "license": "BSD 3-Clause License",
+  "support": {
+        "issues": "https://github.com/aayaresko/yii2-advanced-html-dom/issues",
+        "source": "https://github.com/aayaresko/yii2-advanced-html-dom"
+    },
   "authors": [
 	{
-	  "name": "aayaresko",
+	  "name": "Andrey Yaersko",
 	  "email": "aayaresko@gmail.com"
 	}
   ],
